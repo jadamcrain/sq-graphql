@@ -3,8 +3,8 @@ use std::error::Error;
 
 #[derive(GraphQLQuery)]
 #[graphql(
-    schema_path = "schema.graphql",
-    query_path = "all_films.graphql",
+    schema_path = "graphql/schema.graphql",
+    query_path = "graphql/all_films.graphql",
     response_derives = "Debug"
 )]
 pub struct Query;
