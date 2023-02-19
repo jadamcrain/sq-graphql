@@ -1,6 +1,6 @@
-# Retrieving schema
+# Notes
 
-```sh
-> cargo install graphql_client_cli
-> graphql-client introspect-schema https://swapi-graphql.netlify.app/.netlify/functions/index > schema.json
-```
+Running cargo doc as below is a good way to see documentation for the generated code:
+
+> cargo doc --document-private-items --open
+
